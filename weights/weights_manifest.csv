@@ -1,0 +1,36 @@
+filename,model_key,seed,size_bytes,sha256,manuscript_item
+best_mbv2_tl2_seed0.pth,mbv2_tl2,0,9186399,d05779c4165de60d62032b84d01e0f94f48b7ed6c2dcd442e0b1cddf854a0ed4,proposed / Table 3 last row / Table 4 / Figs 8;10
+best_mbv2_tl2_seed1.pth,mbv2_tl2,1,9186399,fb62ea9c0395d8df31eb82a3a397b0bcd9467685377b5aa9215e972207ac13fe,proposed / Table 3 last row / Table 4 / Figs 8;10
+best_mbv2_tl2_seed2.pth,mbv2_tl2,2,9186399,862c2d507fd87ddcf16335d36d9d0431421693ccc87323201c2f7beaf693a297,proposed / Table 3 last row / Table 4 / Figs 8;10
+best_mbv2_tl2_seed3.pth,mbv2_tl2,3,9186399,f6f378460dd9fedaa0bd30425e5b187212562ab3a6c4622b6ba598ba874e31a0,proposed / Table 3 last row / Table 4 / Figs 8;10
+best_mbv2_tl2_seed4.pth,mbv2_tl2,4,9186399,94406c69d1d7a1977b4ac4d6e8ff851bf41890cde1fc53d768539a7e45bc60de,proposed / Table 3 last row / Table 4 / Figs 8;10
+best_mbv2_color_seed0.pth,mbv2_color,0,9187043,1caa2af9d2b6325cd0c5421e616e564921385fabcb96e10da3478207fc4e884f,MobileNetV2+CAB / Table 4 / Fig 10
+best_mbv2_color_seed1.pth,mbv2_color,1,9187043,12c34b59a9394152d51679f435123e3b2baeeca1e620f5def9bd65c72f8af5db,MobileNetV2+CAB / Table 4 / Fig 10
+best_mbv2_color_seed2.pth,mbv2_color,2,9187043,23a42aa199900a7561e5fbb18ad9b8feaa2224dd1fd0e7a7dac058f5b4629c81,MobileNetV2+CAB / Table 4 / Fig 10
+best_mbv2_color_seed3.pth,mbv2_color,3,9187043,2cf4eb0c92261bc0f8803064f971da91436cc02762c33bf9717bc2bd2e2d9ba7,MobileNetV2+CAB / Table 4 / Fig 10
+best_mbv2_color_seed4.pth,mbv2_color,4,9187043,3231f74ce5e7478e5927da3f7bac7774fec4b4d4b91c697d93625d33a8e496be,MobileNetV2+CAB / Table 4 / Fig 10
+best_mbv2_tl_seed0.pth,mbv2_tl,0,9184651,27f59d53a34ef10fa91facdf5ad7cf61f1c5a17beeb18edc9f003ad0b9bff0a4,MobileNetV2+DLR / Table 4 / Fig 10
+best_mbv2_tl_seed1.pth,mbv2_tl,1,9184651,0c44225d67c19a27046651585fd81cac9d19b2f86d156cbf99f61c096a91222c,MobileNetV2+DLR / Table 4 / Fig 10
+best_mbv2_tl_seed2.pth,mbv2_tl,2,9184651,8be26137b0b660291defa166d1bddd629d6b6866d5a02b0c9baced8bc66cfd59,MobileNetV2+DLR / Table 4 / Fig 10
+best_mbv2_tl_seed3.pth,mbv2_tl,3,9184651,68d54afcedbb1bb866d8d85108e9124321d34b192a7308dc9017df167383b87e,MobileNetV2+DLR / Table 4 / Fig 10
+best_mbv2_tl_seed4.pth,mbv2_tl,4,9184651,7e893331bc575e8dc722a140824cbb2d78cd7ea68ab4907b28b1e53b56acc307,MobileNetV2+DLR / Table 4 / Fig 10
+best_mbv2_seed0.pth,mbv2,0,9183691,886f5a8193ec59123e92f5f7f6e38e035c8e4ce81b8bc702666e5120bb82ec62,baseline / Tables 3-4 / Figs 8;10
+best_mbv2_seed1.pth,mbv2,1,9183691,c639f9fb409d1948e91f85fd491c6bf8bb76e6d868488b848bfb745756f0d98f,baseline / Tables 3-4 / Figs 8;10
+best_mbv2_seed2.pth,mbv2,2,9183691,4824a68fa75fd275f832c44ed7a7962998dca64320c47aec7785f4bb19bc46ce,baseline / Tables 3-4 / Figs 8;10
+best_mbv2_seed3.pth,mbv2,3,9183691,525d5746e67643dbbcdd87b10788773a82a1ca5e25183c09308ff3829e95c81a,baseline / Tables 3-4 / Figs 8;10
+best_mbv2_seed4.pth,mbv2,4,9183691,f6d0de6a7e2f0d35a6ac8f9df89167fea22a5f43111177b3e78b5e732af940ea,baseline / Tables 3-4 / Figs 8;10
+best_res18_seed0.pth,res18,0,44802827,ab47098f97ab053723cdcd5fae7f33920ada65a4ed114b238f51168e5a743857,ResNet18 / Table 3
+best_res18_seed1.pth,res18,1,44802827,2fde58c5d2e0dd0c890725fbdd25b950037c9273128ed2ea1621d3d8338f7126,ResNet18 / Table 3
+best_res18_seed2.pth,res18,2,44802827,66fa298cbb17ade1d60a699535ad53c9a55f99e0948ec299dadfd80ad5335206,ResNet18 / Table 3
+best_res18_seed3.pth,res18,3,44802827,ebd5921362167882826f31cff543cd943864eaf976c2d5335a2ae26126012a78,ResNet18 / Table 3
+best_res18_seed4.pth,res18,4,44802827,5b16c0ebb342a8029a649c8cf37e9daaa405f249898532dbb693dde35eea4467,ResNet18 / Table 3
+best_mbv3_seed0.pth,mbv3,0,17056447,e1a5c3697f442212d3214a15afa342369bf145dc39a32a8dac3cec455bb9cd89,MobileNetV3-Large / Table 3 / Fig 10
+best_mbv3_seed1.pth,mbv3,1,17056447,19592266e5c0388917f9431455b560784aeef4e953a51eb2170a0fc40e00ec1a,MobileNetV3-Large / Table 3 / Fig 10
+best_mbv3_seed2.pth,mbv3,2,17056447,7d369284e871d9710c27b588b935035c7875f2676054a53757d7508606eb0757,MobileNetV3-Large / Table 3 / Fig 10
+best_mbv3_seed3.pth,mbv3,3,17056447,25e5116612714855a42404e0a7d3bb872e72fa1f679edd12f99eab040494d3a1,MobileNetV3-Large / Table 3 / Fig 10
+best_mbv3_seed4.pth,mbv3,4,17056447,4d2ee07599f6b7af9777bc3b13a8f9f42effe8db7b754533f162bc272b534d49,MobileNetV3-Large / Table 3 / Fig 10
+best_mobilevit_seed0.pth,mobilevit,0,3956586,2a8aa6a596321b330187fd14ca4556f1e29b15f359ced5531bb7c97480bb4344,MobileViT-XXS / Table 3 / Fig 10
+best_mobilevit_seed1.pth,mobilevit,1,3956586,35a272ca00e2f051872f444a56db8d4fabce7fefb5bfc8d741e6e1ec50645a7a,MobileViT-XXS / Table 3 / Fig 10
+best_mobilevit_seed2.pth,mobilevit,2,3956586,8ec510415a458b7640d267194af76943ee08da795957ed090e8f4ac09935ff2c,MobileViT-XXS / Table 3 / Fig 10
+best_mobilevit_seed3.pth,mobilevit,3,3956586,9526e10f4a3b996bcff48b31b3a33fa3f74397f3366818d9408b7e364821783f,MobileViT-XXS / Table 3 / Fig 10
+best_mobilevit_seed4.pth,mobilevit,4,3956586,c697bcb4dcd29a4918dd1402681d48bcf48132b091c53d5c22d2053240ca05d3,MobileViT-XXS / Table 3 / Fig 10
