@@ -1,0 +1,35 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# --- large artefacts: weights and data archives ship via GitHub Release, not git ---
+*.pth
+*.onnx
+*.rar
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# --- dataset directories (download from the release page) ---
+TermiteData/
+TermiteData-256px/
+TermiteData-4096px/
+data/
+
+# --- experiment outputs ---
+results/
+runs/
+checkpoints/
+*.npz
+*.xlsx
+outputs/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
