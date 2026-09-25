@@ -1,0 +1,65 @@
+# configs/default.yaml — all experiment parameters in one place.
+# Defaults reproduce the manuscript exactly; CLI flags override these.
+
+data:
+  root: ./TermiteData-256px        # override: --data
+  train_split: train
+  val_split: val
+  test_split: test
+  num_workers: 4
+  pin_memory: true
+
+# Evaluation geometry. DO NOT CHANGE: matching the training-time validation
+# pipeline is what makes the reported numbers reproducible.
+eval_transform:
+  resize: 256
+  crop: 224
+  interpolation: bilinear
+
+augment:
+  hflip: 0.5
+  rotation: 15
+  rrc_scale: [0.8, 1.2]
+  color_jitter: [0.15, 0.15]       # [brightness, contrast]
+  blur_p: 0.3
+  jpeg_p: 0.3
+  jpeg_quality: [40, 80]
+  gauss_p: 0.3
+  gauss_sigma: [2, 8]
+  sp_p: 0.3
+  sp_ratio: [0.01, 0.05]
+  mixup: true
+  cutmix: true
+  mixup_alpha: 0.4
+  cutmix_alpha: 1.0
+
+model:
+  name: mbv2_tl2                   # mbv1 mbv2 mbv2_tl mbv2_color mbv2_tl2
+                                   # mbv2_eca res18 effb0 mbv3 mobilevit
+  num_classes: 8
+  pretrained: true
+
+train:
+  epochs: 80
+  batch_size: 32
+  lr: 1.0e-4                       # classifier head / CAB / non-TL models
+  tl_backbone_lr: 5.0e-5           # backbone, TL models only
+  weight_decay: 1.0e-4
+  warmup_epochs: 5
+  patience: 8                      # early stopping on val accuracy
+  label_smoothing: 0.1
+  seeds: [0, 1, 2, 3, 4]           # manuscript reports mean +/- std over 5
+
+eval:
+  mode: clean                      # clean | robust
+  robust_sp_ratio: 0.08            # was hardcoded in train_termite_cls.py:1067
+  robust_erase_scale: [0.10, 0.20] # was hardcoded in train_termite_cls.py:1070
+
+output:
+  dir: ./outputs
+  save_history: true               # history_<model>_seed<N>.npz -> Fig. 8
+  save_best: true                  # best_<model>_seed<N>.pth
+
+repro:
+  deterministic: true
+  benchmark: false
