@@ -1,4 +1,4 @@
-# Termite Image Dataset and MobileNetV2-CAB-TL2 Training Code
+# Termite Image Dataset and MobileNetV2-CAB-TL2 Training Code(release V1.1.0).
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22710889.svg)](https://doi.org/10.5281/zenodo.22710889)
 [![License: MIT](https://img.shields.io/badge/code-MIT-yellow.svg)](LICENSE)
